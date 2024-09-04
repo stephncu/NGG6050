@@ -1,0 +1,7 @@
+Exercise #1: If someone gets a positive test, is it "statistically significant" at the p<0.05 level? Why or why not?
+	According to the World Health Organization, an estimated 0.6% of adults aged 15-49 years worldwide are living with HIV. If I run an HIV test on a sample of 1,000 persons, then I would expect 6 (1,000 * 0.6% = 6) people to receive true positive test results. Furthermore, there is no false negative rate, therefore, I would expect no people to get a negative result despite having HIV.
+    This means 994 (1,000 - 6 = 994) people do not have HIV. With a 5% false positive rate, there will be 49.7 (994 * 5% = 49.7) people who receive false positive results despite not having HIV.
+    Therefore, the probability that any given driver among the true positive and false positive results really has HIV is 6/(6 + 49.7) = 0.1077 or 10.77%. This is not statistically significant at the p < 0.05 level - only 10.77% of the positive results are true positives, meaning the error rate is greatly above the accepted level.
+
+Exercise #2: What is the probability that if someone gets a positive test, that person is infected?
+    See Jupyter Notebook file.
